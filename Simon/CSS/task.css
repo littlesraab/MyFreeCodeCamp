@@ -1,0 +1,269 @@
+.flex-centered, .app-container, .board, .brand, .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes, .green, .red, .yellow, .blue {
+    height: 50%;
+    width: 50%;
+    border: 2vmin solid #000;
+    box-shadow: 1vmin 1vmin 3vmin #0a0a0a;
+    background-image: linear-gradient(to top, rgba(50, 50, 50, 0.2), rgba(10, 10, 10, 0.3));
+    background-blend-mode: darken;
+}
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(http://img1.gamersky.com/image2016/10/20161001_lyx_285_11/gamersky_06origin_11_20161011989FA.jpg);
+    background-size: cover;
+    background-position: center;
+    vertical-align: baseline;
+}
+
+.status {
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+    padding-top: 1.5vmin;
+}
+
+.result {
+    color: #fff;
+    font-family: arial;
+    font-size: 8vmin;
+}
+
+.button1, .button2 {
+    width: 25%;
+    height: 6vmin;
+    background-image: linear-gradient(to top, rgba(50, 50, 50, 0.2), rgba(255, 255, 255, 0.3));
+    background-blend-mode: screen;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.button2 {
+    margin-left: 20%;
+}
+
+.app-container {
+    margin-left: 33%;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+    position: relative;
+    height: 70vmin;
+    width: 70vmin;
+    
+}
+
+.green {
+    background-color: #29d935;
+    border-top-left-radius: 100%;
+    border-right: 1vmin solid #000;
+    border-bottom: 1vmin solid #000;
+}
+
+.blue {
+    background-color: #3661c4;
+    border-bottom-right-radius: 100%;
+    border-top: 1vmin solid #000;
+    border-left: 1vmin solid #000;
+}
+
+.red {
+    background-color: #ff3630;
+    border-bottom: 1vmin solid #000;
+    border-left: 1vmin solid #000;
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    background-color: #fff130;
+    border-bottom-left-radius: 100%;
+    border-right: 1vmin solid #000;
+    border-top: 1vmin solid #000;
+}
+
+.board {
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2vmin solid #000;
+    box-shadow: .5vmin .5vmin 1vmin #000;
+}
+
+.brand {
+    width: 100%;
+    height: 30%;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 7vmin;
+    margin-top: 1vmin;
+    padding: 0;
+    color: #000;
+}
+
+.middle {
+    margin-left: 2px;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.display {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;   
+    position: relative;
+    height: 60%;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #A9A9A9;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.round {
+    color: #000;
+    font-size: 5vmin;
+
+}
+
+.start {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60%;
+    width: 30%;
+    text-align: center;
+}
+
+.startb {
+    border: 3px solid #000;
+    width: 5vmin;
+    height: 5vmin;
+    border-radius: 100%;
+    background-color: #ff3630;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.strict {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60%;
+    width: 30%;
+    text-align: center;
+}
+
+.strictb {
+    background-color: #d3c504;
+    height: 5vmin;
+    width: 5vmin;
+    border: 3px solid #000;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.label {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 2vmin;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    top: 6.3vmin;
+}
+
+.strict .label {
+    top: 6.8vmin;
+}
+
+.start .label {
+    top: 6.8vmin;
+}
+
+.bottom {
+    width: 100%;
+    height: 25%;
+}
+
+.ctrl {
+    display: block;
+    border: 2px solid #323232;
+    border-radius: 5px;
+    height: 40%;
+    width: 25%;
+    background-color: #0a0a0a;
+}
+
+.ctrlb {
+    width: 50%;
+    height: 100%;
+    border: 0.3vmin solid #323232;
+    border-radius: 5px;
+    background-color: #59c4ce;
+}
+
+.off {
+    font-weight: 700;
+    margin-right: .1vmin;
+    font-size: 2.5vmin;
+    color: #000;
+}
+
+.on {
+    font-weight: 700;
+    margin-left: .1vmin;
+    font-size: 2.5vmin;
+    color: #000;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.bright {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(211, 211, 211, 0.4)) !important;
+    background-blend-mode: screen !important;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.redt {
+    color: #c91f37;
+}
+
+.pointer {
+    cursor: pointer;
+}
