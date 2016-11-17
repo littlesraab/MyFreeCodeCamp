@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1685a9;
+
+}
+
+#title {
+	font-family: Arial;
+	font-size: 50px;
+	font-weight: 700;
+	color: #44cef6;
+	text-align: center;
+	background-color: #065279;
+	border-radius: 5px;
+}
+
+#bl, #sl {
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: 700;
+	color: #44cef6;
+	text-align: center;
+	background-color: #065279;
+	border-radius: 5px;
+}
+
+.buttons {
+	font-family: Arial;
+	font-size: 35px;
+	text-align: center;
+}
+
+.buttons .btn {
+	font-size: 20px;
+	color: #fff;
+	background-color: #065279;
+}
+
+#btime, #stime {
+	color: #fff;
+	background-color: #065279;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 2px;
+	border-color: #fff;
+}
+
+.timer {
+	text-align: center;
+	text-shadow: 2px 2px 8px #000;
+	color: #fff;
+
+}
+
+#status {
+	font-family: arial;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#time {
+	font-family: arial;
+	font-size: 35px;
+	font-weight: 500;
+}
+
+.ctrl {
+	text-align: center;
+}
+
+#start, #pause {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #065279;
+}
