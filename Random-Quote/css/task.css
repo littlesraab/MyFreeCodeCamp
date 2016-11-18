@@ -1,0 +1,37 @@
+body {
+	background-color: #003472;
+}
+.container-fluid {
+	min-height: 90vh;
+	text-align: center;
+	font-family: cursive,arial;
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+
+h1 {
+	font-size: 50px;
+	color: #4b5cc4;
+}
+
+.quotebox {
+	border-style:solid;
+	border-color: #fff;
+	min-height: 10vh;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 5vh;
+	border-radius: 15px;
+	color: #fff;
+}
+
+.buttons {
+	margin-top: 3vh;
+}
+
+.new, .new2{
+	font-size: 15px;
+	color: #fff;
+	background-color: #4b5cc4;
+}
