@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	text-align: center;
+	margin-top: 20px;	
+}
+
+.board {
+	width: 500px;
+	margin-left: 390px;
+	margin-top: 20px
+
+}
+
+.area {
+	width: 150px;
+	height: 135px;
+	
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.nostart {
+	background-color: #000;
+	border-color: #fff;
+}
+
+.win {
+	border-color: #000;
+	background-color: red;
+}
+
+.start {
+	background-color: #fff;
+	border-color: #000;
+}
+
+.icon {
+	font-family: arial;
+  	margin: 10px auto;
+  	display: block;
+  	color: black;
+  	font-size: 80px;
+}
